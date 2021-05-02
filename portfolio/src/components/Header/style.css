@@ -1,0 +1,47 @@
+/** Navigation Style **/
+nav {
+	background-color: rgb(221, 218, 218);
+	height: auto;
+	border-bottom-style: solid;
+	border-width: 8px;
+	border-color: rgb(192, 185, 197);
+}
+/** Link Style **/
+.nav-link {
+	font-family: "Inknut Antiqua", sans-serif;
+	font-size: 16px;
+	color: rgb(2, 2, 96) !important; /* To override bootstrap */
+}
+/** Header Style **/
+header {
+	padding: 20px 0px;
+}
+
+/** Navbar Brand (Name) Style **/
+/** UL Style **/
+.navigation {
+	margin-left: auto;
+	margin-right: 20px;
+}
+#navbar-brand {
+	font-family: "Limelight", cursive;
+	font-size: 28px;
+	color: rgb(2, 2, 56)!important;
+	padding-top: 14px;
+	padding-bottom: 0px;
+	margin-left: 20px;
+}
+/** Navbar Button Margin **/
+.navbar-toggler {
+	margin-right: 20px;
+}
+/** Navbar Collapsed Menu **/
+.navbar-collapse {
+	text-align: center;
+	padding-top: 20px;
+}
+/** Current Link Style **/
+.active {
+	font-weight: bold;
+	font-size: 18px;
+}
