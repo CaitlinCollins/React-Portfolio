@@ -1,5 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "../Grid";
+import Projects from "../Projects";
+import projects from '../../projects.json';
+import { Component } from "react";
+
+
 
 function Portfolio() {
    return (
@@ -14,30 +19,19 @@ function Portfolio() {
                         </Col>
                      </Row>
                      <figure>
-                        <Col size="xs-12 sm-12">
-                           <div className="card text-center">
-                           <img
-											class="card-img-top img-fluid portimg"
-											src="assets/crate.png"
-											alt="Reel 2 Real"/>
-										<div class="card-body">
-											<h5 class="card-title">Reel 2 Real</h5>
-											<p class="card-text">
-												An online record database that allows the user to sign up or login for complete access. There is a search feature that allows the user to search by artist, which renders the albums listed under that artist. The user can then get more information about the album of their choice or add it to their crate to be saved for later. 
-											</p>
-											<a
-												href="https://reel2real.herokuapp.com/"
-												target="_blank"
-												class="btn deploy"
-												>Deploy Here</a>
-											<a
-												href="https://github.com/CaitlinCollins/reel2real"
-												target="_blank"
-												class="btn deploy"
-												>GitHub Repo</a>
-                                 </div>
-                           </div>
-                        </Col>
+                        {projects.map(project =>  {
+                           return (
+                              <Projects
+                              id={project.id}
+                              name={project.name}
+                              image={project.image}
+                              alt={project.alt}
+                              description={project.description}
+                              deployUrl={project.deployUrl}
+                              gitHub={project.gitHub}
+                              />
+                           );
+                        })}
                      </figure>
                   </article>
                </Col>
@@ -45,12 +39,6 @@ function Portfolio() {
          </Container>
       )
 }
-
-
-
-
-
-
 
 
 export default Portfolio;

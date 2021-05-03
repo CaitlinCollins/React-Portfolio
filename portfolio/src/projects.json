@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Reel => Real",
-        "image":"./public/assets/crate.png",
+        "image":"assets/crate.png",
         "alt": "Reel 2 Real",
         "description": "An online record database that allows the user to sign up or login for complete access. There is a search feature that allows the user to search by artist, which renders the albums listed under that artist. The user can then get more information about the album of their choice or add it to their crate to be saved for later.",
         "deployUrl": "https://reel2real.herokuapp.com/",
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "Budget Tracker",
-        "image":"./public/assets/budget.png",
+        "image":"assets/budget.png",
         "alt": "Budget Tracker",
         "description": "A progressive web app that allows the user to track their budget with or without an internet connection.",
         "deployUrl": "https://my-best-budget.herokuapp.com/",
@@ -21,7 +21,7 @@
     {
         "id": 3,
         "name": "Tech Blog",
-        "image":"./public/assets/view.png",
+        "image":"assets/view.png",
         "alt": "Tech Blog",
         "description": "An online blog that allows the user to sign up or login for complete access. Once logged in, the user can create, edit, and delete posts as well as leave comments on other user's posts.",
         "deployUrl": "https://nonsense-and-such.herokuapp.com/",
@@ -30,7 +30,7 @@
     {
         "id": 4,
         "name": "Travel Pal",
-        "image":"./public/assets/Travel2.png",
+        "image":"assets/Travel2.png",
         "alt": "Travel Pal Night Mode",
         "description": "An application designed with the modern traveler in mind. It takes the stress out of traveling internationally by providing the user with the local 5-Day forecast, currency exchange rates, and translations no matter where in the world they are!",
         "deployUrl": "https://caitlincollins.github.io/Travel-Pal/",
@@ -39,7 +39,7 @@
     {
         "id": 5,
         "name": "Weather Dashboard",
-        "image":"./public/assets/weather4.png",
+        "image":"assets/weather4.png",
         "alt": "Weather Dashboard: Havana",
         "description": "A local weather dashboard that allows the user to input any city and receive the current forecast and 5-day forecast, as well as saves their search to a 'Search History' queue.",
         "deployUrl": "https://caitlincollins.github.io/Server-Side-APIs/",
@@ -48,7 +48,7 @@
     {
         "id": 6,
         "name": "Web APIs Quiz",
-        "image":"./public/assets/Office3.png",
+        "image":"assets/Office3.png",
         "alt": "Office Quiz: Final Screen",
         "description": "'The Office' themed, timed trivia quiz that allows the user to save and track their highscores.",
         "deployUrl": "https://caitlincollins.github.io/Web-APIs-Quiz/",
