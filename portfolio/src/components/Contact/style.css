@@ -1,0 +1,60 @@
+/** Article Style **/
+article {
+	background-color:rgb(221, 218, 218);
+	overflow: auto;
+	margin: 0px 40px;
+	padding: 0px 20px 20px 20px;
+	border-radius: 20px;
+}
+/** Aside Style **/
+aside {
+	background-color:rgb(221, 218, 218);
+	overflow: auto;
+	margin: 40px 20px;
+	padding: 40px 20px;
+	border-radius: 20px;
+}
+/** H1 Style **/
+h1 {
+	font-family: "Inknut Antiqua", serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(2, 2, 56);
+	padding: 40px 0px 0px 20px;
+}
+/** H3 Style **/
+h3 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-top: 20px;
+}
+/** Horizontal Rule Style **/
+hr {
+	margin: 20px;
+}
+
+/****** ELEMENTS -- CONTACT ******/
+/** Form Padding **/
+form {
+	padding: 10px 20px 30px 20px;
+}
+
+/****** CLASSES -- CONTACT ******/
+/** Button Style **/
+.contactbtn {
+	margin-left: 20px;
+	width: 100px;
+	height: 60px;
+	background-color: rgb(2, 2, 56);
+}
+/** Section Style **/
+.bottomcontact {
+	padding: 130px 0px;
+}
+.contactP {
+	font-size: 20px;
+	font-family: Calibri;
+	color: rgb(2, 2, 56);
+	padding-top: 10px;
+	padding-left: 20px;
+    border: none;
+}

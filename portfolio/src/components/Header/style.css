@@ -6,11 +6,13 @@ nav {
 	border-width: 8px;
 	border-color: rgb(192, 185, 197);
 }
+
 /** Link Style **/
 .nav-link {
 	font-family: "Inknut Antiqua", sans-serif;
 	font-size: 16px;
 	color: rgb(2, 2, 96) !important; /* To override bootstrap */
+	border: none;
 }
 /** Header Style **/
 header {
@@ -27,9 +29,9 @@ header {
 	font-family: "Limelight", cursive;
 	font-size: 28px;
 	color: rgb(2, 2, 56)!important;
-	padding-top: 14px;
-	padding-bottom: 0px;
+	padding-bottom: 10px;
 	margin-left: 20px;
+	border: none;
 }
 /** Navbar Button Margin **/
 .navbar-toggler {
@@ -44,4 +46,18 @@ header {
 .active {
 	font-weight: bold;
 	font-size: 18px;
+}
+
+/****** SELECTOR STYLE ******/
+/** Link Hover Style **/
+.nav-link:hover, a:hover{
+	color: rgb(192, 185, 197) !important; /* To override bootstrap */
+}
+/** Link Active Style **/
+.nav-link:active, a:active {
+	color: magenta !important; /* To override bootstrap */
+}
+/** Span Hover Style **/
+span:hover {
+	background-color: magenta !important; /* To override bootstrap */
 }
