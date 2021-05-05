@@ -4,12 +4,12 @@ import { Container, Row, Col } from "../Grid";
 function Projects(props) {
    return (
       <Col size="xs-12 sm-12">
-      <div className="card text-center">
-         <img
+         <div className="card text-center">
+            <img
             className="card-img-top img-fluid portimg"
             src={props.image}
             alt={props.alt}/>
-         <div class="card-body">
+            <div class="card-body">
             <h5 class="card-title">{props.name}</h5>
             <p class="card-text">
             {props.description}
@@ -25,8 +25,8 @@ function Projects(props) {
                class="btn deploy"
                >GitHub Repo</a>
             </div>
-      </div>
-   </Col>
+         </div>
+      </Col>
    )
 }
 
