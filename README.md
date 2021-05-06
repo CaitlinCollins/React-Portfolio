@@ -25,13 +25,13 @@
   ## Screenshots
   
   ### Home
-  ![home]()
+  ![home](https://github.com/CaitlinCollins/React-Portfolio/blob/main/portfolio/public/assets/home.png)
   
   ### Portfolio
-  ![view]()
+  ![portfolio](https://github.com/CaitlinCollins/React-Portfolio/blob/main/portfolio/public/assets/portfolio.png)
   
   ### Contact
-  ![dashboard]()
+  ![contact](https://github.com/CaitlinCollins/React-Portfolio/blob/main/portfolio/public/assets/contact.png)
   
   
   ## License
