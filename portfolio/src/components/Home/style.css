@@ -21,6 +21,10 @@ hr {
 	margin: 20px;
 }
 
+ul {
+	padding-left: 0px;
+}
+
 /****** ELEMENTS -- ABOUT ******/
 /** Paragraph Style **/
 p {
