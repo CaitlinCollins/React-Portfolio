@@ -66,18 +66,19 @@ figcaption {
 .bioimg {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 300px;
+	max-width: 4400px;
 	padding: 10px 0px 20px 0px;
 }
 /** First Paragraph Style **/
 .firstP {
-	padding: 20px 20px 0px 20px;
+	padding: 20px 20px 0px 10px;
 	font-size: 18px;
 }
 /** UL Style **/
 .languages, .tools, .tools2 {
 	font-size: 20px;
 	color: purple;
+	padding-left: 10px;
 }
 
 .tools {
@@ -100,3 +101,101 @@ figcaption {
 	float: left;
 }
 
+/* * Special styling for iPad Pro Landscape/ HD Laptops * */
+@media only screen and (max-width: 1366px) {
+	.bioimg {
+		max-width: 440px;
+	}
+}
+/** Special styling for iPad Pro 10" **/
+@media only screen and (max-width: 1112px) {
+	.bioimg {
+		max-width: 260px;
+	}
+}
+/** Special styling for iPad Pro 12" (portrait) **/
+@media only screen and (max-width: 1024px) {
+	.bioimg {
+		max-width: 290px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+}
+/** Special styling for iPhone X Landscape **/
+@media only screen and (max-width: 812px) {
+	.download {
+		font-size: 14px;
+	}
+	.bioimg {
+		max-width: 215px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 30px;
+	}
+	.download {
+		font-size: 13px;
+	}
+	.bioimg {
+		max-width: 240px;
+		padding-top: 30px;
+	}
+}
+/** Special styling for iPhone 6-8 **/
+@media only screen and (max-width: 667px) {
+	h1 {
+		font-size: 24px;
+		padding-left: 10px;
+	}
+	.download {
+		font-size: 11px;
+	}
+	.bioimg {
+		max-width: 410px;
+		padding-top: 0px;
+	}
+}
+/** Special styling for iPhone SE **/
+@media only screen and (max-width: 568px) {
+	h1{
+		font-size: 34px;
+	}
+	.download {
+		font-size: 14px;
+	}
+	.bioimg {
+		max-width: 420px;
+	}
+}
+/** Special styling for iPhone 8 Plus **/
+@media only screen and (max-width: 414px) {
+	h1 {
+		font-size: 30px;
+	}
+	.download {
+		font-size: 13px;
+	}
+	.bioimg {
+		max-width: 350px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	h1 {
+		font-size: 28px;
+	}
+	.download {
+		font-size: 10px;
+	}
+	.bioimg {
+		max-width: 315px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	h1 {
+		font-size: 24px;
+	}
+	.bioimg {
+		max-width: 285px;
+	}
+}
