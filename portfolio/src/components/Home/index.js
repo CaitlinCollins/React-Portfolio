@@ -60,7 +60,7 @@ function Home() {
                                         <li className="item">Node.js</li>
                                         <li className="item">Express.js</li>
                                         <li className="item">MVC</li>
-                                        <li className="item">User Authentication</li>
+                                        <li className="item">User Authent.</li>
                                         <li className="item">ORM</li>
                                     </ul>
                                 </div>
@@ -86,6 +86,7 @@ function Home() {
                                     </ul>
                                 </div>
                                 </Col>
+        
                                 <Col size="xs-4 sm-4">
                                 <div className="tools2">Databases:
                                     <ul>
