@@ -38,31 +38,63 @@ function Home() {
                                 Programming allows me to flex my problem-solving muscles while
                                 honing in on my creative instincts.
                             </p>
-                            <div className="languages">Languages:
-                                <ul>
-                                    <li className="item">HTML</li>
-                                    <li className="item">CSS</li>
-                                    <li className="item">JavaScript</li>
-                                </ul>
-                            </div>
-                            <div className="tools">Tools:
-                                <ul>
-                                    <li className="item">JQuery</li>
-                                    <li className="item">Node.js</li>
-                                    <li className="item">Handlebars.js</li>
-                                    <li className="item">MySql</li>
-                                    <li className="item">Seqelize</li>
-                                </ul>
-                            </div>
-                            <div className="tools2">
-                                <ul>
-                                    <li className="item">Express</li>
-                                    <li className="item">APIs</li>
-                                    <li className="item">Bootstrap</li>
-                                    <li className="item">GitHub</li>
-                                    <li className="item">Heroku</li>
-                                </ul>
-                            </div>
+                            <Row>
+                                <Col size="xs-4 sm-4">
+                                <div className="languages">Browser:
+                                    <ul>
+                                        <li className="item">HTML</li>
+                                        <li className="item">CSS</li>
+                                        <li className="item">JavaScript</li>
+                                        <li className="item">JQuery</li>
+                                        <li className="item">Bootstrap</li>
+                                        <li className="item">React.js</li>
+                                    </ul>
+                                </div>
+                                </Col>
+                                <Col size="xs-4 sm-4">
+                                <div className="tools">Server:
+                                    <ul>
+                                        <li className="item">Templating Engines</li>
+                                        <li className="item">Sessions</li>
+                                        <li className="item">Tests</li>
+                                        <li className="item">Node.js</li>
+                                        <li className="item">Express.js</li>
+                                        <li className="item">MVC</li>
+                                        <li className="item">User Authentication</li>
+                                        <li className="item">ORM</li>
+                                    </ul>
+                                </div>
+                                </Col>
+                                <Col size="xs-4 sm-4">
+                                <div className="tools">API:
+                                    <ul>
+                                        <li className="item">Server Side APIs</li>
+                                        <li className="item">Third Party APIs</li>
+                                        <li className="item">JSON</li>
+                                        <li className="item">AJAX/ Axios</li>
+                                    </ul>
+                                </div>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col size="xs-4 sm-4">
+                                <div className="tools2">Dev Tools:
+                                    <ul>
+                                        <li className="item">Heroku</li>
+                                        <li className="item">GitHub</li>
+                                        <li className="item">GitHub Pages</li>
+                                    </ul>
+                                </div>
+                                </Col>
+                                <Col size="xs-4 sm-4">
+                                <div className="tools2">Databases:
+                                    <ul>
+                                        <li className="item">MySQL</li>
+                                        <li className="item">MongoDB</li>
+                                    </ul>
+                                </div>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
                 </div>
