@@ -21,13 +21,13 @@ function Home() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col size="xs-6 sm-6">
+                        <Col size="xs-4 sm-4">
                             <figure>
                                 <img className="img-fluid bioimg" src="assets/Caitlin.JPG" alt="Photo of Caitlin"/>
                                 <figcaption>Coming soon to a computer near you!</figcaption>
                             </figure>
                         </Col>
-                        <Col size="xs-6 sm-6">
+                        <Col size="xs-8 sm-8">
                             <p className="firstP">
                                 I'm a Full-Stack Computer Programmer specializing in creative
                                 concepts and user-friendly, responsive layouts.
