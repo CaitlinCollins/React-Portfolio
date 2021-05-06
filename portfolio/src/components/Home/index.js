@@ -6,8 +6,8 @@ function Home() {
     return (
     <Container>
         <Row>
-            <Col size="xs-10 sm-10">
-                <article className="about card">
+            <Col size="xs-12 sm-12">
+                <div className="card">
                     <Row>
                         <Col size="xs-12 sm-12">
                             <h1>About Me<span><a
@@ -63,12 +63,9 @@ function Home() {
                                     <li className="item">Heroku</li>
                                 </ul>
                             </div>
-                            <p className="tag">
-                            Coming soon to a computer near you!
-                            </p>
                         </Col>
                     </Row>
-                </article>
+                </div>
             </Col>
         </Row> 
     </Container>      

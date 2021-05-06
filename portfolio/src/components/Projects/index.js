@@ -10,7 +10,7 @@ function Projects(props) {
             src={props.image}
             alt={props.alt}/>
             <div class="card-body">
-            <h5 class="card-title">{props.name}</h5>
+            <h3 class="card-title">{props.name}</h3>
             <p class="card-text">
             {props.description}
             </p>

@@ -1,0 +1,43 @@
+/****** CLASSES -- PORTFOLIO ******/
+/** Portfolio Image Style **/
+.card {
+	margin-bottom: 40px;
+	background-color: rgb(192, 185, 197);
+	animation: fadeInDownBig;
+	animation-duration: 3s;
+	padding: 40px;
+}
+.portimg {
+	max-width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+/** Deploy Button Style **/
+.deploy {
+	margin-left: 20px;
+	border: solid;
+	border-radius: 10px;
+	size: 1px;
+	color: snow;
+	background-color:  purple; 
+}
+/** Paragraph Style **/
+p {
+	text-align: justify;
+}
+
+/** H3 Style **/
+h3 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-top: 20px;
+}
+
+/** Link Hover Style **/
+.nav-link:hover, a:hover{
+	color: rgb(192, 185, 197) !important; /* To override bootstrap */
+}
+/** Link Active Style **/
+.nav-link:active, a:active {
+	color: magenta !important; /* To override bootstrap */
+}
