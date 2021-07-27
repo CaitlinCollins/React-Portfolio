@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "cause&affect",
-        "image":"assets/Cause.jpeg",
+        "image":"assets/causeaffect.png",
         "alt": "cause&affect",
         "description": "A one-stop shop to connect local non-profits and charities with volunteers and donors. Organizations can register and create events with specific volunteer information. Volunteers can browse prospective non-profits or the public calendar to find events in their area.",
         "deployUrl": "https://cause-affect.herokuapp.com/",
