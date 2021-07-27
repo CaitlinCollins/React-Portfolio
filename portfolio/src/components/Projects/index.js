@@ -15,7 +15,7 @@ function Projects(props) {
             {props.description}
             </p>
             <a
-               href={props.deploy}
+               href={props.deployUrl}
                target="_blank"
                class="btn deploy"
                >Deploy Here</a>
