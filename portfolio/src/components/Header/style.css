@@ -1,6 +1,7 @@
 /** Navigation Style **/
 nav {
-	background-color: rgb(221, 218, 218);
+	/* background-color: rgb(221, 218, 218); */
+	background-color: red;
 	height: auto;
 	border-bottom-style: solid;
 	border-width: 8px;
