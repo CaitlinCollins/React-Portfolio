@@ -23,7 +23,7 @@ function Home() {
                     <Row>
                         <Col size="xs-4 sm-4">
                             <figure>
-                                <img className="card-img-top img-fluid bioimg" src="assets/Caitlin.JPG" alt="Photo of Caitlin"/>
+                                <img className="card-img-top img-fluid bioimg" src="assets/Cait-42.jpg" alt="Photo of Caitlin"/>
                                 <figcaption>Coming soon to a computer near you!</figcaption>
                             </figure>
                         </Col>
