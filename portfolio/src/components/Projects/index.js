@@ -1,28 +1,30 @@
 import React from "react";
-import { Container, Row, Col } from "../Grid";
+import { Col } from "../Grid";
 
 function Projects(props) {
    return (
-      <Col size="xs-12 sm-12">
+      <Col size="md-12">
          <div className="card text-center">
             <img
             className="card-img-top img-fluid portimg"
             src={props.image}
             alt={props.alt}/>
-            <div class="card-body">
-            <h3 class="card-title">{props.name}</h3>
-            <p class="card-text">
+            <div className="card-body">
+            <h3 className="card-title">{props.name}</h3>
+            <p className="portP">
             {props.description}
             </p>
             <a
                href={props.deployUrl}
                target="_blank"
-               class="btn deploy"
+               rel="noreferrer"
+               className="btn deploy"
                >Deploy Here</a>
             <a
                href={props.gitHub}
                target="_blank"
-               class="btn deploy"
+               rel="noreferrer"
+               className="btn deploy"
                >GitHub Repo</a>
             </div>
          </div>

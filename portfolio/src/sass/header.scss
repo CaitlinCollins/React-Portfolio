@@ -1,18 +1,21 @@
+@import "variables.scss";
+
+
 /** Navigation Style **/
 nav {
-	background-color: rgb(221, 218, 218) !important;
+	background-color: $cardBlue !important;
 	height: auto;
 	border-bottom-style: solid;
 	border-width: 8px;
-	border-color: rgb(192, 185, 197);
+	border-color: $grey;
 }
 
 /** Link Style **/
 .nav-link {
-	font-family: "Inknut Antiqua", sans-serif;
+	font-family: $mainFont;
 	font-size: 16px;
 	margin-left: 0px !important;
-	color: rgb(2, 2, 96) !important; /* To override bootstrap */
+	color: $navy !important; /* To override bootstrap */
 }
 
 /** Header Style **/
@@ -26,11 +29,17 @@ header {
 	margin-left: auto;
 	margin-right: 20px;
 }
+
+.navbar-brand {
+	background-color: transparent;
+	border: none;
+}
 #navbar-brand {
-	font-family: "Limelight", cursive;
+	font-family: $fancyFont;
 	font-size: 28px;
-	color: rgb(2, 2, 56)!important;
-	padding-bottom: 10px;
+	color: $navy !important;
+
+	padding-top: 15px;
 	margin-left: 20px;
 }
 
@@ -47,18 +56,19 @@ header {
 .active {
 	font-weight: bold;
 	font-size: 18px;
+	color: $babyBlue !important;
 }
 
 /****** SELECTOR STYLE ******/
 /** Link Hover Style **/
 .nav-link:hover, a:hover{
-	color: rgb(192, 185, 197) !important; /* To override bootstrap */
+	color: $white !important; /* To override bootstrap */
 }
 /** Link Active Style **/
 .nav-link:active, a:active {
-	color: magenta !important; /* To override bootstrap */
+	color: $lightBlue !important; /* To override bootstrap */
 }
 /** Span Hover Style **/
 span:hover {
-	background-color: magenta !important; /* To override bootstrap */
+	background-color: $babyBlue !important; /* To override bootstrap */
 }

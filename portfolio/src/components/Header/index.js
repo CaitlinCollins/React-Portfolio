@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css';
+import "../../sass/header.scss"
 import { Link, useLocation } from "react-router-dom";
 
 function Header() {
@@ -8,11 +8,11 @@ function Header() {
     return (
     <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
-            <a className="navbar-brand">
+            <button className="navbar-brand">
                 <Link to="/home" className={location.pathname === "/" ? "nav-link active" : "nav-link"} id="navbar-brand">
                 Caitlin Collins
                 </Link>
-            </a>
+            </button>
             <button
                 className="navbar-toggler"
                 type="button"
@@ -27,7 +27,7 @@ function Header() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav navigation">
                     <li className="nav-item">
-                        <Link to="/home" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                        <Link to="/home" className={location.pathname === "/home" ? "nav-link active" : "nav-link"}>
                         Home
                         </Link>
                     </li>

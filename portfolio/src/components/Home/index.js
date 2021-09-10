@@ -1,17 +1,18 @@
 import React from "react";
+import "../../sass/home.scss";
 import { Container, Row, Col } from "../Grid";
-import './style.css';
+
 
 function Home() {
     return (
     <Container>
         <Row>
-            <Col size="xs-12 sm-12">
-                <div className="card">
+            <Col size="md-12">
+                <div className="homeCard">
                     <Row>
-                        <Col size="xs-12 sm-12">
+                        <Col size="md-12">
                             <h1>About Me<span><a
-                                href="public/assets/Caitlin_Collins_Full_Stack_Resume.pdf"
+                                href="assets/Caitlin_Collins_Full_Stack_Resume.pdf"
                                 download="Cait_Collins_Resume"
                                 target="_blank"
                                 className="btn btn-outline download"
@@ -21,13 +22,13 @@ function Home() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col size="xs-4 sm-4">
+                        <Col size="md-4">
                             <figure>
-                                <img className="card-img-top img-fluid bioimg" src="assets/Cait-11.jpg" alt="Photo of Caitlin"/>
+                                <img className="card-img-top img-fluid bioimg" src="assets/Cait-11.jpg" alt="Caitlin Collins"/>
                                 <figcaption>Coming soon to a computer near you!</figcaption>
                             </figure>
                         </Col>
-                        <Col size="xs-8 sm-8">
+                        <Col size="md-8">
                             <p className="firstP">
                                 I'm a Full-Stack Computer Programmer specializing in creative
                                 concepts and user-friendly, responsive layouts.
@@ -39,7 +40,7 @@ function Home() {
                                 honing in on my creative instincts.
                             </p>
                             <Row>
-                                <Col size="xs-4 sm-4">
+                                <Col size="md-4">
                                 <div className="languages">Browser:
                                     <ul>
                                         <li className="item">HTML</li>
@@ -51,7 +52,7 @@ function Home() {
                                     </ul>
                                 </div>
                                 </Col>
-                                <Col size="xs-4 sm-4">
+                                <Col size="md-4">
                                 <div className="tools">Server:
                                     <ul>
                                         <li className="item">Templating Engines</li>
@@ -65,7 +66,7 @@ function Home() {
                                     </ul>
                                 </div>
                                 </Col>
-                                <Col size="xs-4 sm-4">
+                                <Col size="md-4">
                                 <div className="tools">API:
                                     <ul>
                                         <li className="item">Server Side APIs</li>
@@ -77,7 +78,7 @@ function Home() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col size="xs-4 sm-4">
+                                <Col size="md-4">
                                 <div className="tools2">Dev Tools:
                                     <ul>
                                         <li className="item">Heroku</li>
@@ -87,7 +88,7 @@ function Home() {
                                 </div>
                                 </Col>
         
-                                <Col size="xs-4 sm-4">
+                                <Col size="md-4">
                                 <div className="tools2">Databases:
                                     <ul>
                                         <li className="item">MySQL</li>

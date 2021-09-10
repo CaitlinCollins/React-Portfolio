@@ -1,34 +1,34 @@
 import React from "react";
 import { Container, Row, Col } from "../Grid";
-import './style.css';
+import '../../sass/footer.scss';
 
 function Footer() {
     return (
         <Container>
             <Row>
-                <Col size="xs-12 sm-12">
+                <Col size="md-12">
                     <footer>
                         © Copyright 2021 Caitlin Collins
-                        <a
-                            href="https://www.facebook.com/caitlincollinsgraber"
-                            target="_blank"
+                        <button
+                            href="https://www.facebook.com/caitlinaileencollins"
+                            target="_blank" rel="noreferrer"
                             className="fa fa-facebook icon"
-                        ></a>
-                        <a
+                        ></button>
+                        <button
                             href="https://www.instagram.com/caitlincollinsactor/"
-                            target="_blank"
+                            target="_blank" rel="noreferrer"
                             className="fa fa-instagram icon"
-                        ></a>
-                        <a
+                        ></button>
+                        <button
                             href="https://www.linkedin.com/in/caitlin-collins-actorprogrammer/"
-                            target="_blank"
+                            target="_blank" rel="noreferrer"
                             className="fa fa-linkedin icon"
-                        ></a>
-                        <a
+                        ></button>
+                        <button
                             href="https://github.com/CaitlinCollins"
                             target="_blank"
                             className="fa fa-github-square icon"
-                        ></a>
+                        ></button>
                     </footer>
                 </Col>
             </Row>

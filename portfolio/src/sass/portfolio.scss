@@ -1,0 +1,61 @@
+@import "variables.scss";
+
+/****** ELEMENTS -- PORTFOLIO ******/
+
+/** Image Figure Style **/
+figure {
+	padding: 20px;
+}
+/****** CLASSES -- PORTFOLIO ******/
+/** Portfolio Image Style **/
+.card {
+	margin-bottom: 40px;
+	border: none !important;
+	margin-top: 0px !important;
+	background-color: $cardBlue !important;
+	animation: fadeInDownBig;
+	animation-duration: 3s;
+	padding: 40px;
+	box-shadow: $boxShadow;
+}
+.portimg {
+	max-width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: $boxShadow;
+}
+/** Deploy Button Style **/
+.deploy {
+	margin-left: 20px;
+	border: none !important;
+	size: 1px;
+	font-family: $mainFont;
+	color: $navy !important;
+	background-color: $lightBlue !important; 
+	box-shadow: $boxShadow;
+}
+
+.spacerTop {
+    height: 40px;
+}
+
+/** Paragraph Style **/
+.portP {
+	text-align: center;
+	color: $navy !important;
+}
+
+/** H3 Style **/
+h3 {
+	font-family: $subFont;
+	padding-top: 20px;
+}
+
+/** Link Hover Style **/
+.deploy:hover, a:hover{
+	color: $white !important; /* To override bootstrap */
+}
+/** Link Active Style **/
+.deploy:active, a:active {
+	color: $babyBlue !important; /* To override bootstrap */
+}

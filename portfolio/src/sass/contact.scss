@@ -1,0 +1,54 @@
+@import "variables.scss";
+
+/** Article Style **/
+.cont {
+	background-color: $cardBlue;
+	overflow: auto;
+	margin: 40px;
+	padding: 0px 20px 20px 20px;
+	box-shadow: $boxShadow;
+}
+
+/** H1 Style **/
+h1 {
+	font-family: $mainFont;
+	font-size: 40px;
+	font-weight: bold;
+	color: $navy;
+	padding: 40px 0px 0px 20px;
+}
+/** H3 Style **/
+h3 {
+	font-family: $subFont;
+	padding-top: 20px;
+}
+/** Horizontal Rule Style **/
+hr {
+	margin: 20px;
+}
+
+/** Label Style **/
+label {
+	font-family: $mainFont;
+	color: $babyBlue;
+}
+
+/** Form Style **/
+form {
+	padding: 10px 20px 30px 20px;
+}
+
+/** Paragraph Style **/
+.contactP {
+	font-size: 20px !important;
+	font-family: $subFont !important;
+	background-color: transparent !important;
+	color: $navy;
+	padding-top: 0px;
+	padding-left: 20px;
+    border: none;
+}
+
+.phoneP {
+	cursor: auto !important;
+}

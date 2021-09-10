@@ -1,0 +1,111 @@
+@import "variables.scss";
+
+/** Article Style **/
+.homeCard {
+	background-color: $cardBlue !important;
+	overflow: auto;
+	margin: 4% 2% 20% 2% !important;
+	padding: 0px 20px 20px 20px;
+	box-shadow: $boxShadow;
+}
+
+/** H1 Style **/
+h1 {
+	font-family: $mainFont;
+	font-size: 40px;
+	font-weight: bold;
+	color: $navy;
+	padding: 40px 0px 0px 20px;
+}
+
+/** Horizontal Rule Style **/
+hr {
+	margin: 20px;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+/****** ELEMENTS -- ABOUT ******/
+/** Paragraph Style **/
+p {
+	text-align: justify;
+	font-family: $subFont;
+	color: $navy;
+	font-size: 18px !important;
+}
+.languages, .tools, .tools2, .contactP {
+	font-size: 18px;
+	font-family: $subFont !important;
+	line-height: 1.5;
+	text-align: left;
+	color: $navy;
+}
+
+figcaption {
+	
+	font-size: 20px;
+	font-family: $subFont;
+	line-height: 1.5;
+	color: $navy;
+	text-align: center;
+}
+
+/** Download Resume Button Style **/
+.download {
+	float: right;
+	border: none;
+	size: 1px;
+	color: $navy !important;
+	background-color: $lightBlue !important;
+	margin-top: 5px;
+	margin-right: 20px;
+	box-shadow: $boxShadow;
+}
+.download:hover, .deploy:hover {
+	color: $white !important;
+}
+.download:active, .deploy:active {
+	color: $babyBlue !important;
+}
+
+/****** CLASSES -- ABOUT ******/
+/** Bio Image Style **/
+.bioimg {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 4400px;
+	padding: 10px 0px 20px 0px;
+}
+/** First Paragraph Style **/
+.firstP {
+	padding: 20px 20px 0px 10px;
+	font-size: 18px;
+}
+/** UL Style **/
+.languages, .tools, .tools2 {
+	font-size: 20px;
+	color: $purple;
+	padding-left: 10px;
+}
+
+.tools {
+	display: inline-block;
+}
+
+.tools2 {
+	display: inline-block;
+	margin-top: 10px;
+}
+/** LI Style **/
+.item {
+	margin-left: 20px;
+	color: $navy;
+	font-size: 16px;
+}
+
+/** Tag Style */
+.tag {
+	float: left;
+}

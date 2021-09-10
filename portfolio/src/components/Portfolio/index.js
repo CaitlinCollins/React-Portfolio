@@ -2,16 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "../Grid";
 import Projects from "../Projects";
 import projects from '../../projects.json';
-import "./style.css";
+import "../../sass/portfolio.scss";
 
 function Portfolio() {
    return (
       <Container>
          <Row>
-            <Col size="xs-12 sm-12">
+            <Col size="md-12">
                <div className="port">
                   <Row>
-                     <Col size="xs-12 sm-12">
+                     <Col size="md-12">
                         <h1>Portfolio</h1>
                         <hr />
                      </Col>
