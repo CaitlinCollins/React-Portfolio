@@ -14,6 +14,10 @@ function Projects(props) {
             <p className="portP">
             {props.description}
             </p>
+            <h4>Technologies Used</h4>
+            <p className="portP">
+               {props.tech}
+            </p>
             <a
                href={props.deployUrl}
                target="_blank"

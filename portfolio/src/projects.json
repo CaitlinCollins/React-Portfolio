@@ -5,6 +5,7 @@
         "image":"assets/causeaffect.png",
         "alt": "cause&affect",
         "description": "A one-stop shop to connect local non-profits and charities with volunteers and donors. Organizations can register and create events with specific volunteer information. Volunteers can browse prospective non-profits or the public calendar to find events in their area.",
+        "tech": "React.js, Sass, Express.js, MongoDB & MongoAtlas, Bcrypt, Third Party APIs, Heroku",
         "deployUrl": "https://cause-affect.herokuapp.com/",
         "gitHub": "https://github.com/CaitlinCollins/cause-affect"
 
@@ -15,6 +16,7 @@
         "image":"assets/crate.png",
         "alt": "Reel 2 Real",
         "description": "An online record database that allows the user to sign up or login for complete access. There is a search feature that allows the user to search by artist, which renders the albums listed under that artist. The user can then get more information about the album of their choice or add it to their crate to be saved for later.",
+        "tech": "MVC, Node.js, Express.js, Express-session, MySQL, Handlebars, Bootstrap, Third Party APIs, Heroku",
         "deployUrl": "https://reel2real.herokuapp.com/",
         "gitHub": "https://github.com/CaitlinCollins/reel2real"
 
@@ -25,6 +27,7 @@
         "image":"assets/budget.png",
         "alt": "Budget Tracker",
         "description": "A progressive web app that allows the user to track their budget with or without an internet connection.",
+        "tech": "IndexedDB, Service Workers, Heroku",
         "deployUrl": "https://my-best-budget.herokuapp.com/",
         "gitHub": "https://github.com/CaitlinCollins/budget-tracker"
     },
@@ -34,6 +37,7 @@
         "image":"assets/view.png",
         "alt": "Tech Blog",
         "description": "An online blog that allows the user to sign up or login for complete access. Once logged in, the user can create, edit, and delete posts as well as leave comments on other user's posts.",
+        "tech": "MVC, Node.js, Express.js, Express-session, MySQL & Sequelize, Handlebars, Heroku",
         "deployUrl": "https://nonsense-and-such.herokuapp.com/",
         "gitHub": "https://github.com/CaitlinCollins/tech-blog"
     },
@@ -43,6 +47,7 @@
         "image":"assets/Travel2.png",
         "alt": "Travel Pal Night Mode",
         "description": "An application designed with the modern traveler in mind. It takes the stress out of traveling internationally by providing the user with the local 5-Day forecast, currency exchange rates, and translations no matter where in the world they are!",
+        "tech": "Javascript, JQuery, Bootstrap, Moment.js, Third Party APIs, Local Storage",
         "deployUrl": "https://caitlincollins.github.io/Travel-Pal/",
         "gitHub": "https://github.com/CaitlinCollins/Travel-Pal"
     },
@@ -52,16 +57,8 @@
         "image":"assets/weather4.png",
         "alt": "Weather Dashboard: Havana",
         "description": "A local weather dashboard that allows the user to input any city and receive the current forecast and 5-day forecast, as well as saves their search to a 'Search History' queue.",
+        "tech": "Javascript, JQuery, Bootstrap, Moment.js, Third Party APIs, Local Storage",
         "deployUrl": "https://caitlincollins.github.io/Server-Side-APIs/",
         "gitHub": "https://github.com/CaitlinCollins/Server-Side-APIs"
-    },
-    {
-        "id": 7,
-        "name": "Web APIs Quiz",
-        "image":"assets/Office3.png",
-        "alt": "Office Quiz: Final Screen",
-        "description": "'The Office' themed, timed trivia quiz that allows the user to save and track their highscores.",
-        "deployUrl": "https://caitlincollins.github.io/Web-APIs-Quiz/",
-        "gitHub": "https://github.com/CaitlinCollins/Web-APIs-Quiz"
     }
 ]

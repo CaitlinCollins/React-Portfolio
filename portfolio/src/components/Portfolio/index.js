@@ -25,6 +25,7 @@ function Portfolio() {
                            image={project.image}
                            alt={project.alt}
                            description={project.description}
+                           tech={project.tech}
                            deployUrl={project.deployUrl}
                            gitHub={project.gitHub}
                            />

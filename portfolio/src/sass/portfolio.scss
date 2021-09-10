@@ -51,6 +51,13 @@ h3 {
 	padding-top: 20px;
 }
 
+/** H4 Style **/
+h4 {
+	font-family: $subFont;
+	font-size: 22px !important;
+	padding-top: 10px;
+}
+
 /** Link Hover Style **/
 .deploy:hover, a:hover{
 	color: $white !important; /* To override bootstrap */
