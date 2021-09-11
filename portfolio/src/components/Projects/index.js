@@ -4,7 +4,7 @@ import { Col } from "../Grid";
 function Projects(props) {
    return (
       <Col size="md-12">
-         <div className="card text-center">
+         <div className="card text-center portcard">
             <img
             className="card-img-top img-fluid portimg"
             src={props.image}

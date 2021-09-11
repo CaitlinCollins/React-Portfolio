@@ -1,5 +1,7 @@
 @import "variables.scss";
 
+// ** LARGE SCREEN STYLING ** //
+
 /** Article Style **/
 .cont {
 	background-color: $cardBlue;
@@ -51,4 +53,36 @@ form {
 
 .phoneP {
 	cursor: auto !important;
+}
+
+/** Special styling for Medium screens **/
+@media only screen and (max-width: 1007px) {
+	.cont {
+		margin-bottom: 100px;
+	}
+}
+
+/** Special styling for Small screens **/
+@media only screen and (max-width: 640px) {
+	.cont {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	h1 {
+		font-size: 32px;
+	}
+
+	form {
+		padding: 20px 0px 0px 0px;
+	}
+
+	.contactP {
+		font-size: 18px !important;
+		padding-left: 10px;
+	}
+
+	.phoneP {
+		padding-left: 20px;
+	}
 }

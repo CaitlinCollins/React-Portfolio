@@ -1,5 +1,6 @@
 @import "variables.scss";
 
+// ** LARGE SCREEN STYLING ** //
 
 /****** Footer Style ******/
 footer {
@@ -23,6 +24,7 @@ footer {
 /** Social Icon Style **/
 .icon {
 	padding: 0px 0px 10px 10px;
+	background-color: transparent !important;
 	border: none;
 	font-size: 20px;
 	text-decoration: none;
@@ -34,4 +36,17 @@ footer {
 }
 .icon:active {
 	color: $babyBlue !important;
+}
+
+
+/** Special styling for Small screens **/
+@media only screen and (max-width: 640px) {
+	footer {
+		font-size: 12px;
+	}
+
+	.icon {
+		padding-left: 6px;
+		padding-right: 0px;
+	}
 }

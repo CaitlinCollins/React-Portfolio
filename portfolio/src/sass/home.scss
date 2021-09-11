@@ -1,5 +1,9 @@
 @import "variables.scss";
 
+
+// ** LARGE SCREEN STYLING ** //
+
+
 /** Article Style **/
 .homeCard {
 	background-color: $cardBlue !important;
@@ -108,4 +112,44 @@ figcaption {
 /** Tag Style */
 .tag {
 	float: left;
+}
+
+/** Special styling for Small screens **/
+@media only screen and (max-width: 640px) {
+	.homeCard {
+		padding: 0px 14px;
+	}
+
+	hr {
+		margin: 16px 10px !important;
+	}
+	.aboutH1 {
+		font-size: 29px !important;
+		padding-bottom: 20px;
+		padding: 40px 5px 20px 5px;
+	}
+
+	.download {
+		margin: 0px;
+		font-size: 11px !important;
+		width: 75px;
+		padding: 3px !important;
+	}
+
+	figure {
+		padding: 0px !important;
+	}
+	
+	figcaption {
+		font-size: 24px;
+	}
+
+	.firstP {
+	padding: 20px 10px;
+	}
+
+	.item {
+		font-size:18px;
+	}
+
 }

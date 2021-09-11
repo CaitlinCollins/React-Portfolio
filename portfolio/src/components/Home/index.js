@@ -11,7 +11,7 @@ function Home() {
                 <div className="homeCard">
                     <Row>
                         <Col size="md-12">
-                            <h1>About Me<span><a
+                            <h1 className="aboutH1">About Me<span><a
                                 href="assets/Caitlin_Collins_Full_Stack_Resume.pdf"
                                 download="Cait_Collins_Resume"
                                 target="_blank"
@@ -24,7 +24,7 @@ function Home() {
                     <Row>
                         <Col size="md-4">
                             <figure>
-                                <img className="card-img-top img-fluid bioimg" src="assets/Cait-11.jpg" alt="Caitlin Collins"/>
+                                <img className="card-img-top img-fluid bioimg" src="assets/Cait-11.jpg" alt="Caitlin Collins"></img>
                                 <figcaption>Coming soon to a computer near you!</figcaption>
                             </figure>
                         </Col>

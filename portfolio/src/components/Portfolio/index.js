@@ -12,15 +12,15 @@ function Portfolio() {
                <div className="port">
                   <Row>
                      <Col size="md-12">
-                        <h1>Portfolio</h1>
-                        <hr />
+                        <h1 className="portH1">Portfolio</h1>
+                        <hr className="portHr" />
                      </Col>
                   </Row>
                   <figure>
                      {projects.map(project =>  {
                         return (
                            <Projects
-                           id={project.id}
+                           key={project.id}
                            name={project.name}
                            image={project.image}
                            alt={project.alt}

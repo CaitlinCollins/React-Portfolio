@@ -1,5 +1,6 @@
 @import "variables.scss";
 
+// ** LARGE SCREEN STYLING ** //
 
 /** Navigation Style **/
 nav {
@@ -71,4 +72,17 @@ header {
 /** Span Hover Style **/
 span:hover {
 	background-color: $babyBlue !important; /* To override bootstrap */
+}
+
+
+/** Special styling for Small screens **/
+@media only screen and (max-width: 640px) {
+	#navbar-brand {
+		font-size: 26px;
+		padding: 16px 0px;
+	}
+
+	.navbar-toggler {
+		margin-right: 0px;
+	}
 }

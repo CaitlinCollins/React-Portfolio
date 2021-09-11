@@ -9,26 +9,26 @@ function Footer() {
                 <Col size="md-12">
                     <footer>
                         © Copyright 2021 Caitlin Collins
-                        <button
+                        <a
                             href="https://www.facebook.com/caitlinaileencollins"
                             target="_blank" rel="noreferrer"
                             className="fa fa-facebook icon"
-                        ></button>
-                        <button
+                        ></a>
+                        <a
                             href="https://www.instagram.com/caitlincollinsactor/"
                             target="_blank" rel="noreferrer"
                             className="fa fa-instagram icon"
-                        ></button>
-                        <button
-                            href="https://www.linkedin.com/in/caitlin-collins-actorprogrammer/"
+                        ></a>
+                        <a
+                            href="https://www.linkedin.com/in/caitlin-collins-stpaul/"
                             target="_blank" rel="noreferrer"
                             className="fa fa-linkedin icon"
-                        ></button>
-                        <button
+                        ></a>
+                        <a
                             href="https://github.com/CaitlinCollins"
-                            target="_blank"
+                            target="_blank" rel="noreferrer"
                             className="fa fa-github-square icon"
-                        ></button>
+                        ></a>
                     </footer>
                 </Col>
             </Row>

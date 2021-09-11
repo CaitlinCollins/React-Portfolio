@@ -2,6 +2,8 @@
 
 /****** ELEMENTS -- PORTFOLIO ******/
 
+// ** LARGE SCREEN STYLING ** //
+
 /** Image Figure Style **/
 figure {
 	padding: 20px;
@@ -18,6 +20,15 @@ figure {
 	padding: 40px;
 	box-shadow: $boxShadow;
 }
+
+.portH1 {
+	text-align: center;
+}
+
+.portHr {
+	margin: 20px 40px !important;
+}
+
 .portimg {
 	max-width: 750px;
 	margin-right: auto;
@@ -26,7 +37,7 @@ figure {
 }
 /** Deploy Button Style **/
 .deploy {
-	margin-left: 20px;
+	margin: 20px 10px 0px 10px;
 	border: none !important;
 	size: 1px;
 	font-family: $mainFont;
@@ -65,4 +76,25 @@ h4 {
 /** Link Active Style **/
 .deploy:active, a:active {
 	color: $babyBlue !important; /* To override bootstrap */
+}
+
+/** Special styling for Small screens **/
+@media only screen and (max-width: 640px) {
+	.portH1 {
+		padding-left: 0px;
+	}
+	.portcard {
+		padding: 0px;
+		margin-bottom: 60px;
+	}
+
+	.deploy {
+		margin: 0px 5px 10px 5px;
+	}
+
+	.portimg {
+		margin-top: 20px;
+		max-width: 90% !important;
+	}
+	
 }
